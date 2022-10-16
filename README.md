@@ -1,0 +1,1 @@
+# test-slsa-goreleaser

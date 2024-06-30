@@ -12,6 +12,7 @@ jobs:
   # Generate ldflags dynamically.
   # Optional: only needed for ldflags.
   args:
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     outputs:
       commit-date: ${{ steps.ldflags.outputs.commit-date }}
